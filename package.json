@@ -1,0 +1,21 @@
+{
+  "name": "@k88/lerna-publish",
+  "version": "1.0.0",
+  "description": "A simple script for publishing lerna packages",
+  "bin": {
+    "lerna-publish": "./publish"
+  },
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktalebian/lerna-publish.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktalebian/lerna-publish/issues"
+  },
+  "homepage": "https://github.com/ktalebian/lerna-publish#readme"
+}
