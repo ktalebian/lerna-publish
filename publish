@@ -11,8 +11,8 @@
 ##    ./bin/publish               publishes as an alpha tag prepatch bump
 ##    ./bin/publish beta minor    publishes as an beta tag preminor bump
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-LERNA="$DIR/../node_modules/.bin/lerna"
+BIN_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+LERNA="$BIN_DIR/lerna"
 CURRENT_BRANCH=$(git branch --show-current)
 
 # Release tag
