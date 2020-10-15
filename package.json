@@ -6,7 +6,8 @@
     "lerna-publish": "./publish"
   },
   "files": [
-    "bin"
+    "bin",
+    "package.json"
   ],
   "repository": {
     "type": "git",
