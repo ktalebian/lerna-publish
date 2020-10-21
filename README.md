@@ -67,6 +67,10 @@ npm run publish:beta
 npm run publish:public minor
 ```
 
+### No package-lock.json
+
+If you do not want to keep your package-file.json, provide `NO_PACKAGE_LOCK=1 lerna-publish ...` to force-remove the lock.
+
 
 
 
